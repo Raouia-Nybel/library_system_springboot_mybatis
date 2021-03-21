@@ -30,12 +30,12 @@ public class MemberResource {
     @GetMapping("/reserveItem")
     public String reserveItem(){
         Reservations reservations=new Reservations();
-        reservations.setAdminID(99);
-        reservations.setUserID(456);
-        reservations.setISBN(5844);
-        reservations.setReserveDate(200321);
-        reservations.setReturnDate(200421);
-        reservations.setDuration(30);
+        reservations.setAdminID(452);
+        reservations.setUserID(88);
+        reservations.setISBN(389);
+        reservations.setReserveDate(220321);
+        reservations.setReturnDate(270321);
+        reservations.setDuration(5);
         reservations.setFees(0);
         memberMapper.reserveItem(reservations);
         return "Item well reserved for "+reservations.getDuration()+" Days";

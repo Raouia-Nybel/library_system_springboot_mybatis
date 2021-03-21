@@ -7,7 +7,7 @@ import java.util.List;
 
 @Mapper
 public interface ItemsMapper {
-    /*final String selectAll="SELECT * FROM items";
+    final String selectAll="SELECT * FROM items";
     final String insertItem="INSERT INTO items (ISBN, AuthNo, Title, Edition, Category, Price) VALUES (#{ISBN}, #{authNo}, #{title}, #{edition}, #{category}, #{price})";
     final String deleteItem="DELETE FROM items WHERE ISBN=#{ISBN}";
     final String updateItem="UPDATE items " +
@@ -23,5 +23,5 @@ public interface ItemsMapper {
     @Update(updateItem)
     void update(Items items);
     @Delete(deleteItem)
-    void delete(Items items);*/
+    void delete(Items items);
 }

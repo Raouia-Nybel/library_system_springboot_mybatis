@@ -9,12 +9,12 @@ import java.util.List;
 
 @Mapper
 public interface MemberMapper {
-    /*final String selectAll="SELECT * FROM member";
+    final String selectAll="SELECT * FROM member";
     final String insertMember="INSERT INTO member (UserID, Password, Address, FirstName, LastName, PhoneNo, Profession) VALUES (#{userID}, #{password}, #{address}, #{firstName}, #{lastName}, #{phoneNo}, #{profession})";
     final String deleteMember="DELETE FROM member WHERE UserID=#{userID}";
     final String updateMember="UPDATE member " +
             "SET Password=#{password}, Address=#{address}, FirstName=#{firstName}, LastName=#{lastName}, PhoneNo=#{phoneNo}, Profession=#{profession}" +
-            "WHERE UserID=#{userID}";*/
+            "WHERE UserID=#{userID}";
     final String selectAllItems="SELECT * FROM items";
     final String insertReservation="INSERT INTO reservations (ReserveDate, ReturnDate, Duration, Fees, ISBN, UserID, AdminID) " +
             "VALUES (#{reserveDate},#{returnDate},#{duration},#{fees},#{ISBN},#{userID},#{adminID})";

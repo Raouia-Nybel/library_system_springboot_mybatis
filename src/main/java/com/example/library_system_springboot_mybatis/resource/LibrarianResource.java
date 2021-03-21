@@ -35,12 +35,12 @@ private MemberMapper memberMapper;
     {
         boolean verif=false;
         Librarian librarian=new Librarian(/*"RaouiaRaouia1456","Raouia","Lokbani","3529 Miskolc",12365*/);
-        librarian.setAdminID(1000);
-        librarian.setPassword("GOATLeoMLio1010");
-        librarian.setFirstName("Lionnel");
-        librarian.setLastName("Messi");
-        librarian.setAddress("9541 Barcelona");
-        librarian.setPhoneNo(6532);
+        librarian.setAdminID(452);
+        librarian.setPassword("admin452admin;;");
+        librarian.setFirstName("Raouia");
+        librarian.setLastName("Lokbani");
+        librarian.setAddress("3529 Miskolc");
+        librarian.setPhoneNo(1452);
 
         for(AuthentificationSystem as: authenticationSystemMapper.findAll() )
         {
@@ -102,12 +102,12 @@ private MemberMapper memberMapper;
     {
         boolean verif=false;
         Items items=new Items();
-        items.setISBN(5844);
-        items.setTitle("Ce que le jour doit à la nuit");
+        items.setISBN(6321);
+        items.setTitle("Algérie mon pays");
         items.setAuthNo(4);
         items.setPrice(15000);
-        items.setCategory("Romans");
-        items.setEdition("Orbito Edition");
+        items.setCategory("History");
+        items.setEdition("Patrie Edition");
 
         for(Items i: librarianMapper.findAllItems() )
         {
@@ -155,13 +155,13 @@ private MemberMapper memberMapper;
     {
         boolean verif=false;
         Member member=new Member();
-        member.setUserID(456);
-        member.setAddress("00014 Paris");
-        member.setFirstName("Frank");
-        member.setLastName("Michele");
-        member.setPassword("dhizh78sslk");
-        member.setPhoneNo(1036);
-        member.setProfession("Teacher");
+        member.setUserID(88);
+        member.setAddress("141414 Lyon");
+        member.setFirstName("Meriem");
+        member.setLastName("Ghali");
+        member.setPassword("MeriemCLMF00");
+        member.setPhoneNo(4587);
+        member.setProfession("Student");
 
         for(Member m: librarianMapper.findAllMembers() )
         {
